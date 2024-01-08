@@ -4,7 +4,7 @@ metadata:
   name: flux-specs-apps
   namespace: flux-system
 spec:
-  interval: 5m
-  url: https://github.com/pedrost/flux-specs-apps/
+  interval: 1m
+  url: https://github.com/pedrost/flux-specs-apps.git
   ref:
     branch: main
