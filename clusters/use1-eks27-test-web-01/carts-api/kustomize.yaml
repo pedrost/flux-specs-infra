@@ -4,6 +4,8 @@ metadata:
   name: carts-api
 spec:
   interval: 1m
+  dependsOn:
+  - name: global-config
   sourceRef:
     kind: GitRepository
     name: flux-specs-apps
