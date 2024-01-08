@@ -2,8 +2,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: global-config
-spec:
-  interval: 1m
-  path: "./cluster/use1-eks27-test-web-01"
-  prune: true
-  timeout: 1m
+  namespace: flux-system
+resources:
+  - ./apps-repo.yaml
+  - ./global-cluster-config.yaml
