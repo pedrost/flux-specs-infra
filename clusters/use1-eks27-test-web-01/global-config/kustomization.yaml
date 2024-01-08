@@ -1,8 +1,6 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
-metadata:
-  name: global-config
-  namespace: flux-system
+
 resources:
   - ./apps-repo.yaml
   - ./global-cluster-config.yaml
