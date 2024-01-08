@@ -4,6 +4,6 @@ metadata:
   name: global-config
 spec:
   interval: 1m
-  path: "./"
+  path: "./cluster/use1-eks27-test-web-01"
   prune: true
   timeout: 1m
